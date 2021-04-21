@@ -1,0 +1,14 @@
+let a = (Math.floor(Math.random() * 14 + 10));
+console.log("dice1 " + a);
+let b = (Math.floor(Math.random() * 28 + 10));
+console.log("dice2 " +  b);
+let c = (Math.floor(Math.random() * 20 + 10));
+console.log("dice3 " +  c);
+let d = (Math.floor(Math.random() * 44 + 10));
+console.log("dice4 " +  d);
+let e = (Math.floor(Math.random() * 65 + 10));
+console.log("dice5 " +  e);
+let x = a + b + c + d + e;
+console.log("Sum of RandomDice " + x);
+let y = ((x) / 5);
+console.log("Avg of RandomDice " + y);
