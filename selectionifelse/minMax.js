@@ -26,27 +26,3 @@ let max = (array,max = array[0])=>{
 };
 
 console.log("Maximun value of an array element " +max(array));
-
-
-// for i in `arrays`
-// {
-// if ((i > max) && (i > min))
-// else
-// max=i;
-// }
-
-// max=$a
-// min=$a
-// for i in ${list[@]}
-// do
-// if [[ $i -gt $max  ]];
-// then
-//      max=$i
-// fi
-// if [ $i -lt $min ];
-// then
-//     min=$i
-// fi
-// done
-// echo "max is: $max"
-// echo "min is: $min"
