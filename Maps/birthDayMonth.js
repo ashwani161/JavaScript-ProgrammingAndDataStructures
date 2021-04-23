@@ -5,10 +5,6 @@ for (let i = 1; i<=50; i++){
     if(myMap.has(x)){
         let num=myMap.get(x)+1;
         myMap.set(x,num);
-                if(num===10){
-                    console.log(x+" has occured 10 times");
-                    break;
-                }
     }else{
         myMap.set(x,1);
     }
